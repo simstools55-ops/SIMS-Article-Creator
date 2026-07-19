@@ -27,9 +27,12 @@ v0.5.0 Knowledge Architectureを基準に、8種類のPattern Library、Pattern 
 SIMS Writerとは別リポジトリ・別Claude Projectとして運用し、実行時依存を持ちません。
 
 
-## v0.7.1 Personal Blogger Edition
+## v0.7.2 Personal Blogger Edition
 AdSense / Affiliate分岐、商品参照URL、アフィリエイトリンク挿入、Blog Profile、Author Profile、Editorial Voice、WordPress・はてな向けPublish Modeを追加。Golden Articleは「ピアノ講座 口コミ」。
 
 
-## v0.7.1 Learning Foundation
+## v0.7.2 Learning Foundation
 記事ごとにLearning Recordを出力し、利用者の手直し結果を反映したConfirmed Recordを10件集めてArticle Learning Reportを生成します。これは自動再学習ではなく、Project Instructions / Runtime / Knowledge / Patterns / Contract / Templatesの改善候補を監査可能に抽出する仕組みです。
+
+## v0.7.2 Learning Enhancement
+原因分類、人間評価、改善対象資産ランキング、Article History、Release Recommendationを追加しました。

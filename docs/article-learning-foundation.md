@@ -1,11 +1,20 @@
-# Article Learning Foundation
+# Article Learning Enhancement v0.7.2
 
-Article Learning Foundationは、実記事UATの人手修正結果を監査可能なJSONとして保存し、10記事ごとに製品改善候補を抽出する仕組みです。モデルの自動再学習ではありません。
+v0.7.2では、記事単位のLearning Recordと10記事単位のLearning Reportを強化しました。
 
-## Records
-- Provisional: 記事生成直後の自動評価
-- Confirmed: 利用者の公開判定・修正時間・修正箇所を反映
-- Batch Report: Confirmed 10件の集計
+## 追加点
+- 詳細な原因分類
+- 6項目の人間評価
+- 改善対象ファイル候補
+- Article History
+- Asset Ranking
+- Release Recommendation
 
-## Governance
-変更候補は自動適用せず、対象資産・根拠件数・回帰リスクを示して承認を受けます。
+## 運用
+1. 記事生成時のPROVISIONAL Recordを保存。
+2. 公開判断後、UAT Human Feedbackを返す。
+3. CONFIRMED Recordを保存。
+4. 10件をまとめて再投入。
+5. Learning ReportとRelease Recommendationを確認。
+
+学習結果は自動的に製品へ反映されません。改善候補を人間が承認してから更新します。

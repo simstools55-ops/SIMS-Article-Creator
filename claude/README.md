@@ -1,6 +1,3 @@
-# Claude Project Setup — v0.7.1
+# SIMS Article Creator Claude Project v0.7.2
 
-1. `PROJECT_INSTRUCTIONS.md` の内容はClaude Projectの「手順」へ貼り付けます。
-2. `runtime/`, `knowledge/`, `patterns/`, `contracts/`, `templates/` の各ファイルを「ファイル」へ追加します。
-3. このREADME自体はClaude Projectへ追加する必要はありません。
-4. v0.7.0から更新する場合、手順を差し替え、ファイル群をv0.7.1で置き換えます。
+PROJECT_INSTRUCTIONS.mdはClaude Projectの「手順」へ登録してください。その他のフォルダは「ファイル」へ登録します。README自体は登録不要です。

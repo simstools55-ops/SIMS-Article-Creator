@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.7.2 - Learning Enhancement
+- Learning Record v1.1.0へ更新
+- 詳細な原因分類を追加
+- 6項目の人間評価を追加
+- asset_change_candidatesを追加
+- 10記事レポートにarticle_historyとasset_rankingを追加
+- Release Recommendation基準を実装
+- UAT Human Feedbackテンプレートを拡張
+
+
 ## 0.7.1 - Learning Foundation
 - Added per-article SIMS_ARTICLE_LEARNING_RECORD_V1 output.
 - Added provisional and confirmed UAT record states.

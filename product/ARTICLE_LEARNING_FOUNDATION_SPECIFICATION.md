@@ -1,20 +1,17 @@
-# Article Learning Foundation Specification v1.0
-
-Release: v0.7.1
+# Article Learning Enhancement Specification v0.7.2
 
 ## Scope
-- Per-article Learning Record
-- Human feedback confirmation
-- Ten-record aggregation
-- Asset-level change candidate routing
+記事生成ロジックを変更せず、UAT学習・集計・リリース判断を強化する。
+
+## Features
+1. Root Cause Taxonomy
+2. Human Dimension Scores
+3. Asset Change Candidates
+4. Article History
+5. Asset Ranking
+6. Release Assessment
 
 ## Non-goals
-- Claudeのモデル再訓練
-- 会話を越えた無保証の自動保存
-- KnowledgeやRuntimeの無承認自動変更
-
-## Acceptance criteria
-- 記事生成時にprovisional recordを出力
-- 人間評価後にconfirmed recordを出力
-- confirmed 10件だけを重複なしで集計
-- 本文・秘密情報を学習記録に複製しない
+- Claudeの自動再学習
+- 無承認のKnowledge/Runtime変更
+- 10件未満での正式リリース判定

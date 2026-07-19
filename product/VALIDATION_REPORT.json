@@ -1,9 +1,19 @@
 {
-  "version": "0.3.0",
+  "product": "SIMS Article Creator",
+  "version": "0.4.0",
+  "release": "Editorial Core",
   "validated_at": "2026-07-19",
-  "file_count": 51,
   "utf8": "PASS",
-  "json_schema_examples": "PASS",
-  "sims_writer_runtime_dependency": "NONE",
-  "zip_integrity": "PENDING"
+  "json_parse": "PASS",
+  "editorial_core_files": "PASS",
+  "writer_runtime_dependency": "NONE",
+  "file_count": 72,
+  "publication_statuses": [
+    "PASS",
+    "PASS_WITH_WARNING",
+    "NEEDS_REVISION",
+    "NEEDS_EVIDENCE",
+    "NEEDS_EXPERT_REVIEW",
+    "BLOCKED"
+  ]
 }

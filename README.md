@@ -32,5 +32,10 @@ SIMS Article Creatorは、メインキーワードから検索意図・読者課
 
 この版はProduct Architecture確立版です。Knowledge本文、Article Blueprint本文、JSON Schemaおよび実記事生成Runtimeの完成版は後続フェーズで実装します。
 
-## v0.3.0
+## v0.4.0
 入力仕様、出力仕様、SIMS_ARTICLE_CREATOR_V1 JSON Contract、JSON Schema、サンプル、Contract Testを追加しました。
+
+
+## v0.4.0 Editorial Core
+
+This release implements the Editorial Core, Coverage Engine, Reader Journey Engine, Evidence Gate, Fabrication Prevention, Editorial Review and Publication Readiness framework.

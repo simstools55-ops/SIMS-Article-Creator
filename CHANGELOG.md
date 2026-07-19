@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.4.0 - 2026-07-19
+
+### Added
+- Editorial Core 12-engine execution sequence
+- New Article Quality Framework v1.0
+- Coverage Engine and Coverage Map
+- Reader Journey Engine
+- Evidence Gate and claim classes
+- Fabrication Prevention policy
+- Editorial Review Gate
+- Publication Readiness decisions
+- Quality, safety and regression test cases
+
 ## [0.3.0] - 2026-07-19
 ### Added
 - Input Specification v1.0

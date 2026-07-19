@@ -569,6 +569,51 @@
           }
         }
       }
+    },
+    "editorial_core": {
+      "type": "object",
+      "required": [
+        "editorial_brief",
+        "coverage_map",
+        "reader_journey",
+        "evidence_plan",
+        "quality_report"
+      ],
+      "properties": {
+        "editorial_brief": {
+          "type": "object"
+        },
+        "coverage_map": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "reader_journey": {
+          "type": "object"
+        },
+        "evidence_plan": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "quality_report": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "publication_status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "PASS_WITH_WARNING",
+        "NEEDS_REVISION",
+        "NEEDS_EVIDENCE",
+        "NEEDS_EXPERT_REVIEW",
+        "BLOCKED"
+      ]
     }
   }
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0 - 2026-07-19
+- Personal Blogger Edition基盤を追加
+- Runtime Lock、Monetization Router、Editorial Voice、Publish Modeを追加
+- Blog Profile / Author Profile / Affiliate Inputテンプレートを追加
+- Review Pattern 2.0とGolden Article「ピアノ講座 口コミ」回帰テストを追加
+- Input/Output Contractを1.1.0へ拡張
+- PR表記、アフィリエイトリンク、body_markdown完全性の品質ゲートを強化
+
 ## 0.6.0 - UAT Prototype
 - 8種類のPattern Libraryを実装
 - Pattern Manifest / Routing / Composer Rulesを追加

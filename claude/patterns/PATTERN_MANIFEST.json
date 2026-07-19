@@ -1,6 +1,6 @@
 {
   "format": "SAC_PATTERN_MANIFEST_V1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "patterns": [
     {
       "id": "HOWTO",
@@ -47,7 +47,7 @@
       "name": "Review",
       "file": "review.md",
       "status": "ACTIVE",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "allowed_as_primary": true
     },
     {

@@ -258,6 +258,116 @@
           ]
         }
       }
+    },
+    "product_reference_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "affiliate_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "blog_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "site_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "theme": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "target_reader": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tone": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "revenue_model": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ADSENSE",
+            "AFFILIATE",
+            "HYBRID",
+            null
+          ]
+        },
+        "publishing_platform": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "WORDPRESS",
+            "HATENA",
+            "OTHER",
+            null
+          ]
+        },
+        "avoid_expressions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "cta_policy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "author_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reader_approach": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expertise_level": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editorial_principles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prohibited_experience_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

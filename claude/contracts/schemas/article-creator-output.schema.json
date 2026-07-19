@@ -21,7 +21,9 @@
     "quality",
     "publication_gate",
     "warnings",
-    "missing_information"
+    "missing_information",
+    "editorial_voice",
+    "publish"
   ],
   "properties": {
     "format": {
@@ -84,6 +86,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "product_reference_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affiliate_url": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -206,6 +220,24 @@
         },
         "meta_description": {
           "type": "string"
+        },
+        "h1_title": {
+          "type": "string"
+        },
+        "slug_candidate": {
+          "type": "string"
+        },
+        "category_candidates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tag_candidates": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
@@ -278,6 +310,16 @@
               ]
             }
           }
+        },
+        "publishing_format": {
+          "type": "string",
+          "enum": [
+            "MARKDOWN",
+            "WORDPRESS",
+            "HATENA",
+            "HTML",
+            "PLAIN_TEXT"
+          ]
         }
       }
     },
@@ -355,6 +397,37 @@
           }
         },
         "reader_benefit_check": {
+          "type": "boolean"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "ADSENSE",
+            "AFFILIATE",
+            "HYBRID",
+            "NONE"
+          ]
+        },
+        "product_reference_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affiliate_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "affiliate_link_inserted": {
+          "type": "boolean"
+        },
+        "affiliate_link_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pr_disclosure_inserted": {
           "type": "boolean"
         }
       }
@@ -614,6 +687,65 @@
         "NEEDS_EXPERT_REVIEW",
         "BLOCKED"
       ]
+    },
+    "editorial_voice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled",
+        "voice_type",
+        "first_party_experience_used",
+        "editorial_opinion_used",
+        "user_provided_experience_used"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "voice_type": {
+          "type": "string",
+          "enum": [
+            "INDIVIDUAL_BLOGGER",
+            "NEUTRAL",
+            "CUSTOM"
+          ]
+        },
+        "first_party_experience_used": {
+          "type": "boolean"
+        },
+        "editorial_opinion_used": {
+          "type": "boolean"
+        },
+        "user_provided_experience_used": {
+          "type": "boolean"
+        }
+      }
+    },
+    "publish": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "copy_ready",
+        "pr_disclosure_inserted"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": [
+            "WORDPRESS",
+            "HATENA",
+            "MARKDOWN",
+            "OTHER"
+          ]
+        },
+        "copy_ready": {
+          "type": "boolean"
+        },
+        "pr_disclosure_inserted": {
+          "type": "boolean"
+        }
+      }
     }
   }
 }

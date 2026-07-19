@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_CREATOR_KNOWLEDGE_MANIFEST_V1",
-  "manifest_version": "1.0.0",
+  "manifest_version": "1.1.0",
   "entries": [
     {
       "id": "K-POLICY",
@@ -154,6 +154,28 @@
       "status": "active",
       "applies_when": "always",
       "purpose": "E-E-A-T transparency",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-BLOG-VOICE",
+      "version": "1.0.0",
+      "file": "BLOG_PROFILE_AND_AUTHOR_VOICE.md",
+      "category": "style",
+      "priority": 85,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Blog profile and individual blogger voice",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-AFFILIATE",
+      "version": "1.0.0",
+      "file": "AFFILIATE_ARTICLE_KNOWLEDGE.md",
+      "category": "monetization",
+      "priority": 105,
+      "status": "active",
+      "applies_when": "affiliate_article",
+      "purpose": "Affiliate URL, review and CTA rules",
       "updated_at": "2026-07-19"
     }
   ]

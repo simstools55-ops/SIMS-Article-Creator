@@ -1,5 +1,5 @@
 {
-  "main_keyword": "Windows 11 スクリーンショット 保存先",
+  "main_keyword": "ピアノ講座 口コミ",
   "supporting_keywords": [
     "Windows11 スクショ どこ",
     "スクリーンショット 保存場所 変更"
@@ -45,5 +45,30 @@
     ],
     "prohibited_claims": [],
     "ymyl_mode": "AUTO"
+  },
+  "product_reference_url": "https://example.com/piano-course",
+  "affiliate_url": "https://example.com/affiliate/piano-course",
+  "blog_profile": {
+    "site_name": "個人ブログ",
+    "theme": "大人の学び",
+    "target_reader": "趣味でピアノを始めたい大人",
+    "tone": "親しみやすく誠実",
+    "revenue_model": "AFFILIATE",
+    "publishing_platform": "WORDPRESS",
+    "avoid_expressions": [
+      "絶対に上達する"
+    ],
+    "cta_policy": "押し売りを避け、判断材料の後に案内する"
+  },
+  "author_profile": {
+    "reader_approach": "初心者にも分かりやすく説明する",
+    "expertise_level": "GENERAL_BLOGGER",
+    "editorial_principles": [
+      "メリットとデメリットを併記",
+      "最終判断は読者に委ねる"
+    ],
+    "prohibited_experience_claims": [
+      "未提供の購入・受講体験"
+    ]
   }
 }

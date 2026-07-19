@@ -13,3 +13,10 @@
 - `PUBLICATION_BLOCKED`: 公開不可
 - `FABRICATION_RISK`: 捏造リスクを検出
 - `MONETIZATION_MISALIGNED`: 収益導線が読者利益と不整合
+
+- `RUNTIME_LOCKED`: 記事生成Runtimeを正常起動
+- `AFFILIATE_LINK_MISSING`: 入力済みリンクが本文に未挿入
+- `PR_DISCLOSURE_MISSING`: PR表記不足
+- `BODY_MARKDOWN_INCOMPLETE`: 完成記事全文が未格納
+- `REVIEW_SOURCE_UNCLASSIFIED`: 口コミ出典区分不足
+- `EDITORIAL_VOICE_VALID`: 個人ブロガー文体と事実分離が妥当

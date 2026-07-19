@@ -1,7 +1,9 @@
 {
-  "version": "0.2.0",
-  "file_count": 36,
-  "utf8_errors": [],
-  "broken_relative_links": [],
-  "sims_writer_runtime_dependency_found": false
+  "version": "0.3.0",
+  "validated_at": "2026-07-19",
+  "file_count": 51,
+  "utf8": "PASS",
+  "json_schema_examples": "PASS",
+  "sims_writer_runtime_dependency": "NONE",
+  "zip_integrity": "PENDING"
 }

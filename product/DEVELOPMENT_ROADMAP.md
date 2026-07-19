@@ -13,3 +13,14 @@
 - v0.8.0 Contract and Regression Tests
 - v0.9.0 UAT Candidate
 - v1.0.0 Baseline
+
+## 完了: v0.3.0 Input / Output / Contract
+- 入力仕様
+- 出力仕様
+- JSON Contract v1.0
+- Schema・サンプル・契約テスト
+
+## 次: v0.4.0 Quality Framework
+- 新規記事専用品質基準
+- Publication Gate意味検証
+- YMYL・捏造防止・Evidence Gate

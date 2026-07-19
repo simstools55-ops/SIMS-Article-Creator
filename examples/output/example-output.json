@@ -1,0 +1,176 @@
+{
+  "format": "SIMS_ARTICLE_CREATOR_V1",
+  "contract_version": "1.0.0",
+  "execution": {
+    "execution_id": "SAC-20260719-0001",
+    "reference_date": "2026-07-19",
+    "language": "ja",
+    "completed_stages": [
+      "R00",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16"
+    ]
+  },
+  "input_summary": {
+    "main_keyword": "Windows 11 スクリーンショット 保存先",
+    "supporting_keywords": [
+      "Windows11 スクショ どこ",
+      "スクリーンショット 保存場所 変更"
+    ],
+    "assumptions": [
+      "読者は標準のWindows 11環境を利用していると仮定"
+    ]
+  },
+  "analysis": {
+    "primary_intent": "TROUBLESHOOTING",
+    "secondary_intents": [
+      "HOW_TO"
+    ],
+    "reader_situation": "スクリーンショットを撮ったが保存場所が分からない",
+    "reader_problem": "保存先の確認方法と変更方法を知りたい",
+    "desired_outcome": "画像を見つけ、今後の保存先も管理できる",
+    "article_type": "TROUBLESHOOTING_HOW_TO",
+    "ymyl_risk": "NONE",
+    "freshness_requirement": "MEDIUM"
+  },
+  "editorial_brief": {
+    "article_goal": "保存先を特定し変更方法まで案内する",
+    "central_answer": "撮影方法ごとに保存先が異なるため、まず撮影方法を確認する",
+    "mandatory_topics": [
+      "撮影方法別の保存先",
+      "見つからない場合",
+      "保存先変更"
+    ],
+    "excluded_topics": [
+      "Windows 10のみの説明"
+    ],
+    "original_value": [
+      "撮影方法から逆引きできる構成"
+    ],
+    "evidence_requirements": [
+      "Windows 11の現行画面・設定名称"
+    ]
+  },
+  "seo_assets": {
+    "recommended_title": "Windows 11のスクリーンショット保存先はどこ？確認・変更方法",
+    "title_candidates": [
+      "Windows 11のスクリーンショット保存先はどこ？確認・変更方法",
+      "Windows11のスクショ保存場所を確認・変更する方法"
+    ],
+    "meta_description": "Windows 11で撮ったスクリーンショットの保存先を、撮影方法別に解説。見つからない場合の探し方と保存場所を変更する手順も紹介します。"
+  },
+  "outline": [
+    {
+      "level": 2,
+      "heading": "Windows 11のスクリーンショット保存先一覧",
+      "purpose": "最初に結論を示す"
+    },
+    {
+      "level": 2,
+      "heading": "撮影方法別に保存先を確認する方法",
+      "purpose": "主要な操作を解説"
+    },
+    {
+      "level": 3,
+      "heading": "Windowsキー＋Print Screenの場合",
+      "purpose": "自動保存の場所を解説"
+    }
+  ],
+  "article": {
+    "main_keyword": "Windows 11 スクリーンショット 保存先",
+    "title": "Windows 11のスクリーンショット保存先はどこ？確認・変更方法",
+    "body_markdown": "## Windows 11のスクリーンショット保存先一覧\n\n撮影方法によって保存先が異なります。公開前に現行仕様を確認してください。",
+    "word_count": 54,
+    "first_party_experience": {
+      "used": false,
+      "basis": null
+    }
+  },
+  "faq": [
+    {
+      "question": "スクリーンショットが保存されないのはなぜですか？",
+      "answer": "クリップボードへコピーされる撮影方法では、自分で画像として保存する必要があります。"
+    }
+  ],
+  "internal_links": [
+    {
+      "target": "内部リンク候補データ未提供",
+      "anchor_text": "Windows 11の画像操作",
+      "placement": "保存先変更の説明後",
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "monetization": {
+    "enabled": true,
+    "strategy": "本文の問題解決を妨げない範囲でディスプレイ広告のみ",
+    "cta_locations": [],
+    "reader_benefit_check": true
+  },
+  "evidence": {
+    "items": [
+      {
+        "claim": "Windows 11の現行保存先と設定名称",
+        "importance": "HIGH",
+        "required_source_type": "OFFICIAL",
+        "status": "UNVERIFIED",
+        "source_reference": null
+      }
+    ],
+    "unverified_claim_count": 1,
+    "fabrication_risk": "LOW"
+  },
+  "quality": {
+    "seo": 86,
+    "reader_satisfaction": 82,
+    "helpful_content": 84,
+    "eeat": 72,
+    "consistency": 90,
+    "fact_check": 65,
+    "overall_score": 80
+  },
+  "publication_gate": {
+    "status": "NEEDS_EVIDENCE",
+    "reason_codes": [
+      "EVIDENCE_INSUFFICIENT"
+    ],
+    "blocking_issues": [
+      "現行Windows 11仕様の確認が未完了"
+    ],
+    "required_actions": [
+      "Microsoft公式情報または実機で保存先と設定名称を確認"
+    ]
+  },
+  "warnings": [
+    {
+      "code": "UNVERIFIED_FACT",
+      "message": "Windows 11の現行仕様を公開前に確認してください。",
+      "severity": "WARNING"
+    },
+    {
+      "code": "INTERNAL_LINK_DATA_UNAVAILABLE",
+      "message": "内部リンク候補が入力されていません。",
+      "severity": "INFO"
+    }
+  ],
+  "missing_information": [
+    {
+      "item": "Windows 11現行仕様の確認資料",
+      "impact": "手順の正確性に影響",
+      "required_for_publication": true
+    }
+  ]
+}

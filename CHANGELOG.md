@@ -1,3 +1,15 @@
+# Changelog
+
+## [0.3.0] - 2026-07-19
+### Added
+- Input Specification v1.0
+- Output Specification v1.0
+- SIMS_ARTICLE_CREATOR_V1 Contract v1.0
+- Input / Output JSON Schema
+- Reason Codes / Warning Codes
+- Example input / output
+- Contract validation test
+
 # CHANGELOG
 
 ## 0.2.0 - 2026-07-19

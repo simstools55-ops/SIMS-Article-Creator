@@ -4,7 +4,7 @@ SIMS Article Creatorは、メインキーワードから検索意図・読者課
 
 ## 現在のバージョン
 
-`0.2.0 Product Architecture`
+`0.3.0 Product Architecture`
 
 ## 製品境界
 
@@ -31,3 +31,6 @@ SIMS Article Creatorは、メインキーワードから検索意図・読者課
 ## 開発状況
 
 この版はProduct Architecture確立版です。Knowledge本文、Article Blueprint本文、JSON Schemaおよび実記事生成Runtimeの完成版は後続フェーズで実装します。
+
+## v0.3.0
+入力仕様、出力仕様、SIMS_ARTICLE_CREATOR_V1 JSON Contract、JSON Schema、サンプル、Contract Testを追加しました。

@@ -10,3 +10,9 @@
 - [ ] v0.8.0 Regression and Article-type Tests
 - [ ] v0.9.0 Real Article UAT
 - [ ] v1.0.0 Baseline
+
+## v0.6.0 UAT Prototype
+Pattern LibraryとClaude Project実行パッケージを統合し、実記事UAT開始可能。
+
+## Next
+UAT 10記事 → RC1品質修正 → v1.0.0 Baseline。

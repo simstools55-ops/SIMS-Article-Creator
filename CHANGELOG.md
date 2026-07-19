@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 - UAT Prototype
+- 8種類のPattern Libraryを実装
+- Pattern Manifest / Routing / Composer Rulesを追加
+- Pattern Composer RuntimeをEditorial Pipelineへ統合
+- UAT Request、Evaluation Sheet、Editorial Learning Recordを追加
+- Pattern/UAT静的検証を追加
+- Claude Project投入用プロトタイプを整備
+
+
 ## [0.5.0] - 2026-07-19
 
 ### Added

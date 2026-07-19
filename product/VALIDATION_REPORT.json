@@ -1,15 +1,42 @@
 {
   "product": "SIMS Article Creator",
-  "version": "0.5.0",
-  "release": "Knowledge Architecture",
-  "validated_at": "2026-07-19",
+  "version": "0.6.0",
+  "release": "UAT Prototype",
   "utf8": "PASS",
-  "json_parse": "PASS",
-  "contract_test": "PASS",
-  "quality_test": "PASS",
-  "knowledge_manifest_test": "PASS",
-  "writer_runtime_dependency": "NONE",
-  "file_count": 99,
-  "knowledge_entries": 14,
-  "next_phase": "v0.6.0 Pattern Library"
+  "json": "PASS",
+  "tests": [
+    {
+      "test": "tests/contract/validate_contract.py",
+      "pass": true,
+      "stdout": "PASS: example-input.json\nPASS: example-output.json",
+      "stderr": ""
+    },
+    {
+      "test": "tests/quality/validate_v040.py",
+      "pass": true,
+      "stdout": "PASS",
+      "stderr": ""
+    },
+    {
+      "test": "tests/knowledge/validate_knowledge.py",
+      "pass": true,
+      "stdout": "PASS",
+      "stderr": ""
+    },
+    {
+      "test": "tests/pattern/validate_patterns.py",
+      "pass": true,
+      "stdout": "PATTERN_VALIDATION_PASS 8",
+      "stderr": ""
+    },
+    {
+      "test": "tests/uat/validate_uat_package.py",
+      "pass": true,
+      "stdout": "UAT_PACKAGE_VALIDATION_PASS",
+      "stderr": ""
+    }
+  ],
+  "pattern_count": 8,
+  "repository_file_count": 121,
+  "runtime_dependency_on_sims_writer": false
 }

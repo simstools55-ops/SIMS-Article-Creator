@@ -4,7 +4,7 @@ SIMS Article Creatorは、メインキーワードから検索意図・読者課
 
 ## 現在のバージョン
 
-`0.3.0 Product Architecture`
+`0.5.0 Knowledge Architecture`
 
 ## 製品境界
 
@@ -16,26 +16,35 @@ SIMS Article Creatorは、メインキーワードから検索意図・読者課
 
 ## 中核フロー
 
-入力検証 → キーワード理解 → 検索意図 → 読者課題 → 記事企画 → 根拠計画 → 構成 → 本文 → FAQ・内部リンク・収益導線 → 品質検査 → 公開判定 → JSON出力
+入力検証 → Keyword Intelligence → Search Intent → Reader Model → Editorial Brief → Coverage Map → Evidence Plan → Article Blueprint → Writing → Editorial Review → Publication Gate → JSON出力
 
-## 主要ドキュメント
+## v0.5.0の中核
 
-- `docs/product-architecture.md`
-- `docs/runtime-workflow.md`
-- `docs/editorial-brief-specification.md`
-- `docs/article-blueprint-design.md`
-- `docs/data-flow.md`
-- `product/ENGINE_SPECIFICATIONS.md`
-- `claude/runtime/ARTICLE_CREATION_RUNTIME.md`
+Editorial Coreが利用するKnowledgeを、単なる参考文書ではなく、ロード順序・適用条件・優先順位・鮮度・競合解決を持つ実行可能な知識体系として整備しました。
+
+## 主要ディレクトリ
+
+- `claude/runtime/`：実行制御
+- `claude/knowledge/`：品質・SEO・読者・根拠・安全性の知識
+- `claude/contracts/`：入出力契約
+- `claude/templates/`：中間生成物と最終出力
+- `product/`：製品仕様とガバナンス
+- `tests/`：Contract、Quality、Safety、Knowledge、Regression検証
+
+## 使用順序
+
+1. `claude/PROJECT_INSTRUCTIONS.md`
+2. `claude/knowledge/KNOWLEDGE_INDEX.md`
+3. `claude/runtime/RUNTIME_CONTROL.md`
+4. `claude/runtime/ARTICLE_CREATION_RUNTIME.md`
+5. 記事タイプに該当するKnowledgeと将来のPattern Library
+6. `claude/contracts/SIMS_ARTICLE_CREATOR_CONTRACT.md`
 
 ## 開発状況
 
-この版はProduct Architecture確立版です。Knowledge本文、Article Blueprint本文、JSON Schemaおよび実記事生成Runtimeの完成版は後続フェーズで実装します。
-
-## v0.4.0
-入力仕様、出力仕様、SIMS_ARTICLE_CREATOR_V1 JSON Contract、JSON Schema、サンプル、Contract Testを追加しました。
-
-
-## v0.4.0 Editorial Core
-
-This release implements the Editorial Core, Coverage Engine, Reader Journey Engine, Evidence Gate, Fabrication Prevention, Editorial Review and Publication Readiness framework.
+- v0.1.0 Repository Foundation
+- v0.2.0 Product Architecture
+- v0.3.0 Input / Output Contract
+- v0.4.0 Editorial Core
+- **v0.5.0 Knowledge Architecture（現在）**
+- 次：v0.6.0 Pattern Library

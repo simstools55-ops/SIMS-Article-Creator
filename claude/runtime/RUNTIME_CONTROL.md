@@ -9,3 +9,7 @@
 
 ## Stage Status
 PENDING / RUNNING / PASS / PASS_WITH_WARNING / RETURN / BLOCKED
+
+
+## Knowledge initialization
+Editorial Core開始前に`KNOWLEDGE_LOAD_RUNTIME.md`を実行し、Manifestに基づいて適用Knowledgeを確定する。

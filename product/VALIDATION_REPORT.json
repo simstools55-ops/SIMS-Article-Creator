@@ -1,19 +1,15 @@
 {
   "product": "SIMS Article Creator",
-  "version": "0.4.0",
-  "release": "Editorial Core",
+  "version": "0.5.0",
+  "release": "Knowledge Architecture",
   "validated_at": "2026-07-19",
   "utf8": "PASS",
   "json_parse": "PASS",
-  "editorial_core_files": "PASS",
+  "contract_test": "PASS",
+  "quality_test": "PASS",
+  "knowledge_manifest_test": "PASS",
   "writer_runtime_dependency": "NONE",
-  "file_count": 72,
-  "publication_statuses": [
-    "PASS",
-    "PASS_WITH_WARNING",
-    "NEEDS_REVISION",
-    "NEEDS_EVIDENCE",
-    "NEEDS_EXPERT_REVIEW",
-    "BLOCKED"
-  ]
+  "file_count": 99,
+  "knowledge_entries": 14,
+  "next_phase": "v0.6.0 Pattern Library"
 }

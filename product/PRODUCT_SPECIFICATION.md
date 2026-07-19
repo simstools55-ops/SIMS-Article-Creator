@@ -1,33 +1,28 @@
-# Product Specification
+# Product Specification v0.2.0
 
-## 製品名
+## 製品目的
+メインキーワードから、記事企画、根拠計画、構成、完成本文、品質報告、構造化JSONを生成する。
 
-SIMS Article Creator
-
-## 対象
-
-メインキーワードを起点に、新規記事をゼロから企画・作成するブログ運営者。
-
-## 必須機能
-
-- メインキーワード、関連キーワード、補助キーワード入力
-- 検索意図分類
-- 想定読者と読者課題の定義
-- 記事タイプ判定
-- 記事企画書生成
-- SEOタイトル、メタディスクリプション生成
-- H2・H3構成生成
-- 本文、FAQ生成
-- 内部リンク候補生成
-- 広告、アフィリエイト導線設計
-- 情報不足、根拠不足、YMYLリスク警告
-- SEO品質、読者満足度、整合性、公開可否検査
-- 人間向け出力と構造化JSON出力
+## 必須成果物
+- Keyword/Intent分析
+- Reader Problem Model
+- Editorial Brief
+- Evidence Plan
+- SEOタイトル・メタ
+- H2/H3構成
+- 完成本文
+- FAQ
+- 内部リンク候補
+- 収益導線案
+- Quality Report
+- Publication Decision
+- JSON Output
 
 ## 非機能要件
-
-- SIMS Writerから完全独立
-- 日本語をSingle Source of Truthとする
-- 根拠のない事実、数値、体験談、口コミを生成しない
-- 入力不足を推測で隠さない
-- 毎リリースで完全版Repository ZIPとClaude Project ZIPを提供
+- SIMS Writer非依存
+- 日本語Single Source of Truth
+- UTF-8
+- 警告保持
+- 捏造防止
+- YMYL慎重化
+- 再現可能な工程

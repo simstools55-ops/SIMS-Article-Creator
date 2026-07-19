@@ -1,13 +1,5 @@
-# Claude Project領域
+# Claude Project Package
 
-このディレクトリには、設計確定後にSIMS Article Creator専用の以下の資産を配置します。
+このフォルダはSIMS Article Creator専用Claude Projectの原本です。SIMS WriterのClaude Projectとは共有しません。
 
-- Project Instructions
-- Runtime
-- Knowledge
-- Pattern Library
-- JSON Contract / Schema
-- Output Template
-- Manifest
-
-SIMS WriterのClaude Projectファイルは直接コピーしません。
+v0.2.0ではRuntime骨格とテンプレートのみ収録しています。Project Instructions、Knowledge本文、Blueprint本文、Contract完成版は後続リリースで追加します。

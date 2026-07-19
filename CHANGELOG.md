@@ -1,18 +1,20 @@
-# Changelog
+# CHANGELOG
 
-## [0.1.0] - 2026-07-19
+## 0.2.0 - 2026-07-19
 
 ### Added
+- Article Creation Runtime v1.0設計
+- 12 Engineの責務・入出力・停止条件
+- Editorial Brief仕様
+- Article Blueprint設計
+- Engine間データフロー
+- Publication Readiness Gate設計
+- Claude Project用Runtime骨格
 
-- SIMS Article Creator独立リポジトリの基礎構成
-- 製品コンセプトと独立開発方針
-- SIMS Writer v1.0.0 Baseline資産分類
-- 全574ファイルの資産移行マトリクス
-- 新規記事作成向けGap Analysis初期版
-- 初期アーキテクチャと製品境界
-- 品質方針と開発ロードマップ
+### Changed
+- README、製品仕様、品質方針、Architecture Decisions、開発ロードマップをProduct Architectureに合わせて更新
 
-### Notes
+## 0.1.0 - 2026-07-19
 
-- Runtime、Knowledge、JSON Contract、Claude Projectは未実装
-- SIMS Writerへの変更および直接依存はなし
+- Repository Foundation作成
+- SIMS Writer資産分類とGap Analysisを収録

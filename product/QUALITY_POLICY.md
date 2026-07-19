@@ -1,29 +1,19 @@
-# 品質方針
+# Quality Policy v0.2.0
 
-## 品質優先順位
-
-1. 事実性と安全性
+## 優先順位
+1. 安全性と事実性
 2. 読者の問題解決
-3. 検索意図との一致
-4. 情報の十分性と構造
-5. 自然な日本語
-6. SEO最適化
-7. 収益導線
+3. 検索意図一致
+4. 説明の完全性と理解しやすさ
+5. SEO最適化
+6. 収益導線
 
-## 公開可否判定
+## Hard Gate
+- 実体験・口コミ・調査結果の捏造なし
+- 根拠のない数値断定なし
+- 重要情報不足の隠蔽なし
+- YMYL高リスクの無警告公開なし
+- 読者を誤認させる広告導線なし
 
-- `PASS`
-- `PASS_WITH_WARNING`
-- `NEEDS_REVISION`
-- `NEEDS_EVIDENCE`
-- `NEEDS_EXPERT_REVIEW`
-- `BLOCKED`
-
-## 禁止事項
-
-- 実体験の捏造
-- 架空の口コミ、調査、専門家、数値の生成
-- 確認できない情報の断定
-- キーワードの機械的な過剰使用
-- 薄い一般論による文字数増加
-- 読者利益を損なう過剰な広告導線
+## 公開判定
+PASS / PASS_WITH_WARNING / NEEDS_REVISION / NEEDS_EVIDENCE / NEEDS_EXPERT_REVIEW / BLOCKED

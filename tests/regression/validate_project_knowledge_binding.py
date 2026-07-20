@@ -2,7 +2,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[2]
 p=(root/'claude/PROJECT_INSTRUCTIONS.md').read_text(encoding='utf-8')
 checks={
- 'version':'Project Instructions v1.0.1' in p,
+ 'version':'Project Instructions v1.1.0' in p,
  'binding':'Project Knowledgeの参照方法' in p,
  'no_path_open':'ローカルファイルシステム上のパスとして開こうとしない' in p,
  'safety':'Safety Core（常設フォールバック）' in p,

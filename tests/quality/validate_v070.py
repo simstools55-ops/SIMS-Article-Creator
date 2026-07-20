@@ -10,7 +10,7 @@ required_files=[
 for f in required_files:
  if not (ROOT/f).exists(): errors.append('missing '+f)
 out=json.loads((ROOT/'examples/output/example-output.json').read_text(encoding='utf-8'))
-body=out['article']['body_markdown']
+body=out['article']['body_html']
 checks={
  'golden keyword':out['input_summary']['main_keyword']=='ピアノ講座 口コミ',
  'affiliate type':out['monetization']['type']=='AFFILIATE',

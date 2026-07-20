@@ -1,6 +1,6 @@
 {
   "format": "SIMS_ARTICLE_CREATOR_V1",
-  "contract_version": "1.2.0",
+  "contract_version": "1.3.0",
   "execution": {
     "execution_id": "SAC-20260719-0001",
     "reference_date": "2026-07-19",
@@ -105,13 +105,13 @@
   "article": {
     "main_keyword": "ピアノ講座 口コミ",
     "title": "ピアノ講座の口コミは？特徴と向いている人を解説",
-    "body_markdown": "※本記事には広告・アフィリエイトリンクが含まれています。\n\nピアノ講座の口コミを調べるときは、良い評価だけでなく、教材の進め方やサポート、向いていない人まで確認することが大切です。\n\n## 先に結論\n\n自宅で自分のペースで学びたい大人には検討しやすい一方、対面で細かく指導してほしい人は教室型も比較した方がよいでしょう。\n\n[教材内容を公式サイトで確認する](https://example.com/affiliate/piano-course)\n\n## 口コミを調べて感じたこと\n\n個人的には、価格だけでなく続けやすい仕組みがあるかを確認してから選ぶのが安心だと感じます。\n\n## 向いている人・向いていない人\n\n自分のペースで練習したい人に向いています。先生から直接フォームを直してもらいたい人には向かない可能性があります。\n\n## まとめ\n\n公式情報と口コミの出典を分けて確認し、自分の学び方に合うかで判断しましょう。\n\n[最新価格と申込み条件を確認する](https://example.com/affiliate/piano-course)",
+    "body_html": "<p>※本記事には広告・アフィリエイトリンクが含まれています。</p>\n<p>ピアノ講座の口コミを調べるときは、良い評価だけでなく、教材の進め方やサポート、向いていない人まで確認することが大切です。</p>\n<h2>先に結論</h2>\n<p>自宅で自分のペースで学びたい大人には検討しやすい一方、対面で細かく指導してほしい人は教室型も比較した方がよいでしょう。</p>\n<p><a href=\"https://example.com/affiliate/piano-course\" rel=\"nofollow\">教材内容を公式サイトで確認する</a></p>\n<h2>口コミを調べて分かったこと</h2>\n<p>購入判断の観点では、価格だけでなく続けやすい仕組みがあるかを確認してから選ぶのが安心です。</p>\n<h2>向いている人・向いていない人</h2>\n<p>自分のペースで練習したい人に向いています。先生から直接フォームを直してもらいたい人には向かない可能性があります。</p>\n<h2>まとめ</h2>\n<p>公式情報と口コミの出典を分けて確認し、自分の学び方に合うかで判断しましょう。</p>\n<p><a href=\"https://example.com/affiliate/piano-course\" rel=\"nofollow\">最新価格と申込み条件を確認する</a></p>",
     "word_count": 475,
     "first_party_experience": {
       "used": false,
       "basis": null
     },
-    "publishing_format": "MARKDOWN"
+    "publishing_format": "HTML"
   },
   "faq": [
     {
@@ -199,7 +199,7 @@
     "user_provided_experience_used": false
   },
   "publish": {
-    "platform": "WORDPRESS",
+    "platform": "HTML",
     "copy_ready": true,
     "pr_disclosure_inserted": true
   }

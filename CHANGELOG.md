@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0] - 2026-07-20
+
+### Changed
+- 公開用完成記事の標準形式をMarkdownからHTMLへ変更
+- JSON Contractを1.3.0へ更新し、`article.body_html`を`article.body_html`へ移行
+- Review、Buying Guide、Local Guide、HowToの実記事UAT知見をPattern Libraryへ反映
+- robots制限時のEvidence PolicyとPublication Gate判定を調整
+
+### Added
+- Hidden Anxiety Pattern、Selection Guidance、Intent Gap／代替提案ルール
+- 意思決定支援表（不安→確認事項→判断基準）
+- 文脈型内部リンクとReview記事の競合比較モジュール
+- HTML出力回帰テストとv1.1.0運用試験反映レポート
+
 ## [1.0.1] - 2026-07-20
 
 ### Fixed
@@ -45,7 +59,7 @@
 - Blog Profile / Author Profile / Affiliate Inputテンプレートを追加
 - Review Pattern 2.0とGolden Article「ピアノ講座 口コミ」回帰テストを追加
 - Input/Output Contractを1.1.0へ拡張
-- PR表記、アフィリエイトリンク、body_markdown完全性の品質ゲートを強化
+- PR表記、アフィリエイトリンク、body_html完全性の品質ゲートを強化
 
 ## 0.6.0 - UAT Prototype
 - 8種類のPattern Libraryを実装

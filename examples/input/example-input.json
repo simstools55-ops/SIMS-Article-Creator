@@ -33,7 +33,7 @@
     "tone": "やさしく具体的",
     "reader_level": "BEGINNER",
     "target_length": 3500,
-    "format": "MARKDOWN"
+    "format": "HTML"
   },
   "constraints": {
     "must_include": [

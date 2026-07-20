@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 - 2026-07-20 - Official Baseline
+- 実記事UAT 10記事と追加YMYL試験の結果を正式反映
+- UAT Final ReportとSWLS Final Learning Reportを追加
+- Pattern Library Update v1.1、Knowledge Update v1.1を正式化
+- Runtime Improvement Proposal v1.1を追加
+- README、Product Specification、Release Notesを正式版へ更新
+- VERSION、Validation Report、Claude Project配布資産を同期
+- JSON Contract v1.2.0とLearning Record v1.1.0を正式採用
+
 ## 0.7.2 - Learning Enhancement
 - Learning Record v1.1.0へ更新
 - 詳細な原因分類を追加

@@ -1,38 +1,44 @@
 # SIMS Article Creator
 
-SIMS Article Creatorは、メインキーワードからEditorial Brief、Pattern、Coverage、Evidence、記事本文、編集審査、公開判定を生成する独立製品です。
+SIMS Article Creatorは、メインキーワードからEditorial Brief、Pattern、Coverage、Evidence Plan、記事本文、編集審査、公開判定、構造化JSONを生成する独立製品です。
 
-## 現在のバージョン
-`0.6.0 UAT Prototype`
-
-## 今回の到達点
-v0.5.0 Knowledge Architectureを基準に、8種類のPattern Library、Pattern Composer Runtime、UAT依頼テンプレート、評価票、Editorial Learning Record、検証テストを統合しました。本ZIPを使ってClaude Project上の実記事UATを開始できます。
+## 正式バージョン
+`1.0.0 Official Baseline`
 
 ## 中核フロー
-入力検証 → Keyword Intelligence → Search Intent → Reader Model → Pattern Selection / Composer → Editorial Brief → Coverage Map → Evidence Plan → Blueprint → Writing → Editorial Review → Publication Gate → JSON
+入力検証 → Keyword Intelligence → Search Intent → Reader Model → Pattern Selection / Composer → Risk & Evidence → Editorial Brief → Coverage Map → Blueprint → Writing → Editorial Review → Publication Gate → JSON
+
+## 主な機能
+- 8種類のPattern Library
+- Knowledge Architectureとロード優先順位
+- Evidence Gate / Fabrication Prevention
+- Safety / YMYL Gate
+- Personal Blogger向けEditorial Voice / Publish Mode
+- AdSense / Affiliate分岐
+- JSON Contract v1.2
+- SWLS Learning Record / 10記事Learning Report
 
 ## 主要ディレクトリ
-- `claude/knowledge/`：品質・安全・SEO・読者知識
-- `claude/patterns/`：記事タイプ別設計ルール
-- `claude/runtime/`：実行パイプライン
-- `claude/contracts/`：入出力契約
-- `claude/templates/`：成果物テンプレート
-- `uat/`：UAT開始用一式
-- `tests/`：静的検証と回帰テスト
+- `claude/`：Claude Project投入用の正式資産
+- `docs/`：設計・仕様・Release Notes
+- `product/`：製品仕様、品質方針、UAT/SWLS報告
+- `uat/`：UAT依頼・評価・Learningテンプレート
+- `tests/`：契約、Knowledge、Pattern、Quality、Learning、回帰テスト
+- `distribution/`：配布成果物用
 
-## UAT開始
-`uat/README.md`と`uat/UAT_REQUEST_TEMPLATE.md`を参照してください。
+## セットアップ
+Claude Projectには、配布版ZIPの中身を既存ファイルと混在させず全置換してください。`claude/PROJECT_INSTRUCTIONS.md`をProject Instructionsへ設定し、`claude/knowledge/`以下をKnowledgeとして投入します。
+
+## UATと学習
+SWLSは自動再学習ではありません。記事ごとのLearning Recordを人間が確認し、10件単位のLearning Reportで再発傾向を監査してから、Runtime・Knowledge・Pattern・Contract・Templateの改善候補へ昇格します。
+
+## 品質と安全
+根拠不足、体験捏造、意図不整合、過剰CTA、リンク欠落、本文未格納をPublication Gateで検出します。YMYLではSEOよりSafetyと専門家確認を優先します。
 
 ## 製品境界
-SIMS Writerとは別リポジトリ・別Claude Projectとして運用し、実行時依存を持ちません。
+SIMS Writer、SIMS-Blog-Managerとは別リポジトリ・別Claude Projectとして運用し、実行時依存を持ちません。
 
-
-## v0.7.2 Personal Blogger Edition
-AdSense / Affiliate分岐、商品参照URL、アフィリエイトリンク挿入、Blog Profile、Author Profile、Editorial Voice、WordPress・はてな向けPublish Modeを追加。Golden Articleは「ピアノ講座 口コミ」。
-
-
-## v0.7.2 Learning Foundation
-記事ごとにLearning Recordを出力し、利用者の手直し結果を反映したConfirmed Recordを10件集めてArticle Learning Reportを生成します。これは自動再学習ではなく、Project Instructions / Runtime / Knowledge / Patterns / Contract / Templatesの改善候補を監査可能に抽出する仕組みです。
-
-## v0.7.2 Learning Enhancement
-原因分類、人間評価、改善対象資産ランキング、Article History、Release Recommendationを追加しました。
+## リリース情報
+- [Release Notes v1.0.0](docs/release-notes/RELEASE_NOTES_v1.0.0.md)
+- [UAT Final Report](product/reports/UAT_FINAL_REPORT_v1.0.0.md)
+- [SWLS Final Learning Report](product/reports/SWLS_FINAL_LEARNING_REPORT_v1.0.0.md)

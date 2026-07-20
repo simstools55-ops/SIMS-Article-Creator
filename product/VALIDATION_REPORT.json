@@ -1,45 +1,46 @@
 {
   "product": "SIMS Article Creator",
-  "version": "0.7.1",
-  "release": "UAT Prototype",
+  "version": "1.0.0",
+  "release": "Official Baseline",
+  "release_date": "2026-07-20",
   "utf8": "PASS",
   "json": "PASS",
   "tests": [
     {
       "test": "tests/contract/validate_contract.py",
-      "pass": true,
-      "stdout": "PASS: example-input.json\nPASS: example-output.json",
-      "stderr": ""
+      "pass": true
     },
     {
       "test": "tests/quality/validate_v040.py",
-      "pass": true,
-      "stdout": "PASS",
-      "stderr": ""
+      "pass": true
+    },
+    {
+      "test": "tests/quality/validate_v070.py",
+      "pass": true
     },
     {
       "test": "tests/knowledge/validate_knowledge.py",
-      "pass": true,
-      "stdout": "PASS",
-      "stderr": ""
+      "pass": true
     },
     {
       "test": "tests/pattern/validate_patterns.py",
       "pass": true,
-      "stdout": "PATTERN_VALIDATION_PASS 8",
-      "stderr": ""
+      "pattern_count": 8
+    },
+    {
+      "test": "tests/learning/validate_learning.py",
+      "pass": true
     },
     {
       "test": "tests/uat/validate_uat_package.py",
-      "pass": true,
-      "stdout": "UAT_PACKAGE_VALIDATION_PASS",
-      "stderr": ""
+      "pass": true
     }
   ],
-  "pattern_count": 8,
-  "repository_file_count": 121,
+  "repository_file_count": 150,
   "runtime_dependency_on_sims_writer": false,
-  "release_name": "Learning Foundation",
-  "learning_foundation": "PASS",
-  "contract_version": "1.2.0"
+  "contract_version": "1.2.0",
+  "learning_record_version": "1.1.0",
+  "uat": "PASS",
+  "ymyl_additional_test": "PASS",
+  "release_recommendation": "APPROVED"
 }

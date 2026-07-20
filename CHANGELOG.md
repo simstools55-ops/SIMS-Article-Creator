@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1] - 2026-07-20
+
+### Fixed
+- Claude Project上のKnowledge資産をローカルファイルパスとして扱う誤解を修正
+- Project Knowledge参照失敗時の再検索・Safety Coreフォールバックを追加
+- robots制限時の公式情報優先フォールバック手順を追加
+- First-party Experience未提供時の疑似体験表現を抑止
+
+### Added
+- Project Knowledge Binding回帰テスト
+- 実運用不具合記録 `UAT_Runtime_Incident_2026-07-20.md`
+
 ## 1.0.0 - 2026-07-20 - Official Baseline
 - 実記事UAT 10記事と追加YMYL試験の結果を正式反映
 - UAT Final ReportとSWLS Final Learning Reportを追加

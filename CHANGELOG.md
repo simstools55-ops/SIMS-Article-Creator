@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0 - 2026-07-21
+
+- SIMS-Shared-Editorial-Knowledge v1.1.0を読取専用スナップショットとして統合
+- Repository版とClaude Project版へ`shared/`を追加
+- Sharedを共通編集知識のSingle Source of TruthとしてRuntimeへ接続
+- Creator専用Knowledge、Pattern、Contract、出力形式を維持
+- Shared Snapshot SHA-256検証とRepository/Claude同一性検証を追加
+- v1.1.0のJSON Contract、HTML、Learning、UAT回帰互換を確認
+
 ## [1.1.0] - 2026-07-20
 
 ### Changed

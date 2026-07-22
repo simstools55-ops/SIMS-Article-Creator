@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 - 2026-07-22
+- 運用試験LearningをEvidence・Definition・Buying Guide Runtimeへ反映。
+- Marketplace Evidence Level、Source Scope、Central Claim優先検証を追加。
+- Publication GateとLearning root causeを整理。
+- Shared Editorial Knowledge v1.1.1へ同期。
+
 ## 1.2.0 - 2026-07-21
 
 - SIMS-Shared-Editorial-Knowledge v1.1.0を読取専用スナップショットとして統合

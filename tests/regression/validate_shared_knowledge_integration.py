@@ -8,7 +8,7 @@ def validate_snapshot(base):
     if not manifest_path.exists(): return [f'missing {manifest_path}']
     m=json.loads(manifest_path.read_text(encoding='utf-8'))
     if m.get('source_repository')!='SIMS-Shared-Editorial-Knowledge': errors.append(f'bad source repository: {base}')
-    if m.get('source_version')!='1.1.0': errors.append(f'bad source version: {base}')
+    if m.get('source_version')!='1.1.1': errors.append(f'bad source version: {base}')
     for item in m.get('files',[]):
         p=base/item['path']
         if not p.exists(): errors.append(f'missing snapshot file: {p}')
@@ -22,7 +22,7 @@ for rel in ['VERSION','knowledge/intent-analysis.md','knowledge/hidden-anxiety.m
     if not a.exists() or not b.exists() or a.read_bytes()!=b.read_bytes(): errors.append(f'repository/claude mismatch: {rel}')
 pi=(root/'claude'/'PROJECT_INSTRUCTIONS.md').read_text(encoding='utf-8')
 kr=(root/'claude'/'runtime'/'KNOWLEDGE_LOAD_RUNTIME.md').read_text(encoding='utf-8')
-if 'Shared Knowledge Integration v1.2.0' not in pi: errors.append('project instructions not integrated')
+if 'Shared Knowledge Integration v1.2.1' not in pi: errors.append('project instructions not integrated')
 if 'Shared core load' not in kr: errors.append('runtime not integrated')
 for forbidden in ['Preservation Scoreを適用する','Rewrite Budgetを適用する','Rewrite Levelを適用する']:
     if forbidden in kr: errors.append(f'writer-only runtime introduced: {forbidden}')

@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.2 - 2026-07-23
+
+### Fixed
+- Excluded Writer mapping from Article Creator Shared snapshot.
+- Added Creator identity lock and snapshot scope metadata.
+- Added regression test for product boundary.
+
 ## 1.2.1 - 2026-07-22
 - 運用試験LearningをEvidence・Definition・Buying Guide Runtimeへ反映。
 - Marketplace Evidence Level、Source Scope、Central Claim優先検証を追加。

@@ -38,3 +38,8 @@ Search intent, reader value, hidden-anxiety resolution, coverage, evidence, evid
 - "Not found" must be scoped to reviewed sources; absence claims require stronger evidence.
 - Stale price, refund, cancellation, taxonomy, and制度情報 require a freshness warning or removal.
 - `fabrication_risk: NONE` is not used when material claims remain only partially verified.
+
+
+## Shared v1.3.0 Common Validation
+
+公開前にVAL-FACT-001、VAL-EVIDENCE-002、VAL-CAUSAL-001、VAL-CONSISTENCY-001、VAL-ENTITY-001、VAL-LINK-001を適用する。Creator Identity Lockを維持し、Query Coverage、QUERY_MIX、Winner Query Preservation、SIMS_FEEDBACK_V2、Before／Afterは導入しない。

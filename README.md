@@ -1,3 +1,5 @@
+# SIMS Article Creator v1.2.3
+
 # SIMS Article Creator
 
 SIMS Article Creatorは、メインキーワードからEditorial Brief、Pattern、Coverage、Evidence Plan、記事本文、編集審査、公開判定、構造化JSONを生成する独立製品です。

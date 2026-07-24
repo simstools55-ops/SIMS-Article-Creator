@@ -1,4 +1,26 @@
+# 1.3.0 - Writer Quality & Validation Hardening
+
+- 6つの共通Validationコードを追加
+- Writer/Article Creator Mappingへ共通Validationを接続
+- 製品固有のQuery IntelligenceとJSON ContractをSharedから分離維持
+- Snapshot生成時の版数・Manifest整合性を強化
+
 # Changelog
+
+## 1.2.0 - 2026-07-24
+- 最大200件のSearch Console Query Data解析ルールを追加。
+- Coverage信頼度、Raw Query Preservation、Intent Action Classificationを追加。
+- QUERY MIX、CONTENT GAP、カニバリ判定の推論境界を明文化。
+
+# Changelog
+
+## 1.1.3 - 2026-07-23
+
+### Fixed
+- Defined product-scoped Shared snapshots.
+- Prohibited cross-product mapping inclusion in Claude packages.
+- Removed accidental root-level duplicate and misnamed files that could confuse Project Knowledge.
+- Added snapshot boundary validation.
 
 ## 1.1.1 - 2026-07-22
 - 運用試験Learningを共通知識へ昇格。

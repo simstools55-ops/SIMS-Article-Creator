@@ -1,3 +1,9 @@
+# 1.2.3 - Shared Validation Sync
+
+- Shared Snapshot v1.3.0へ更新
+- 共通ValidationをQuality Gateへ接続
+- Identity LockとHTML出力Contractを維持
+
 # Changelog
 
 ## 1.2.2 - 2026-07-23

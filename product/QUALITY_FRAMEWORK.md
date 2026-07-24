@@ -10,3 +10,8 @@ SIMS Article Creator uses stage-specific gates rather than one final score.
 - Publication Gate
 
 A stage may return PASS, PASS_WITH_WARNING, NEEDS_REVISION, NEEDS_EVIDENCE, NEEDS_EXPERT_REVIEW or BLOCKED.
+
+
+## Shared v1.3.0 Common Validation
+
+公開前にVAL-FACT-001、VAL-EVIDENCE-002、VAL-CAUSAL-001、VAL-CONSISTENCY-001、VAL-ENTITY-001、VAL-LINK-001を適用する。Creator Identity Lockを維持し、Query Coverage、QUERY_MIX、Winner Query Preservation、SIMS_FEEDBACK_V2、Before／Afterは導入しない。
